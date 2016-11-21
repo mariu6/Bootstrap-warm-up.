@@ -1,0 +1,31 @@
+﻿body #wrapper {
+  width: 960px;
+  margin: 0 auto;
+  font-family: 18px Tahoma, sans-serif;
+  margin-top: 15px; }
+  @media screen and (max-width: 960px) {
+    body #wrapper {
+      width: 100%; } }
+
+body header img {
+  height: 50px; }
+
+body main #carousel {
+  height: 300px; }
+  body main #carousel img {
+    height: 300px;
+    margin: 0 auto; }
+  body main #carousel .item .carousel-caption {
+    font-size: 1.5em;
+    font-weight: bold; }
+
+body main > section {
+  margin: 20px 0; }
+  body main > section #sandwitch-menu {
+    color: #ff00ff;
+    cursor: pointer; }
+    body main > section #sandwitch-menu:hover {
+      text-decoration: underline; }
+  body main > section > aside.display-me {
+    display: block !important; }
+

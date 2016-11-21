@@ -1,0 +1,56 @@
+﻿
+body {
+    #wrapper {
+        width: 960px;
+        margin: 0 auto;
+        font-family: 18px Tahoma, sans-serif;
+        margin-top: 15px;
+
+        @media screen and (max-width: 960px) {
+            width: 100%;
+        }
+    }
+
+    header {
+        img {
+            height: 50px;
+        }
+    }
+
+    main {
+        #carousel {
+            height: 300px;
+
+            img {
+                height: 300px;
+                margin: 0 auto;
+            }
+
+            .item {
+                .carousel-caption {
+                    font-size: 1.5em;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        & > section {
+            margin: 20px 0;
+
+            #sandwitch-menu {
+                color: #ff00ff;
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            & > aside {
+                &.display-me {
+                    display: block !important;
+                }
+            }
+        }
+    }
+}
